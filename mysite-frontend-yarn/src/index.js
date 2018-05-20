@@ -1,8 +1,25 @@
+// react needs
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// root app component
+import App from './App';
+
+// css files
+import './index.css';
+import './semantic/dist/semantic.min.css';
+
+// react-router
+import { Route, Switch, BrowserRouter } from "react-router-dom";
+
+// LINKS
+import Resume from './Resume'
+
+ReactDOM.render(
+  <BrowserRouter>
+    <Switch>
+      <Route exact path='/' component={App}/>
+      <Route exact path="/resume" component={Resume}/>
+    </Switch>
+  </BrowserRouter>
+  , document.getElementById('root'));
