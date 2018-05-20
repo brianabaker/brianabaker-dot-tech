@@ -20,6 +20,7 @@ ReactDOM.render(
     <Switch>
       <Route exact path='/' component={App}/>
       <Route exact path="/resume" component={Resume}/>
+      <Route exact path='/travelphotos' component={TravelPhotos}/>
     </Switch>
   </BrowserRouter>
   , document.getElementById('root'));
