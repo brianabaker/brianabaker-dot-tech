@@ -6369,6 +6369,13 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
+pdfjs-dist@2.0.303:
+  version "2.0.303"
+  resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.0.303.tgz#8c00530f242286603bfcbfdd2ee917c182b9d441"
+  dependencies:
+    node-ensure "^0.0.0"
+    worker-loader "^1.1.0"
+
 pdfjs-dist@2.0.305:
   version "2.0.305"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.0.305.tgz#53b0f9805ae101d7ef742d020d03578ee9781b06"
@@ -6973,6 +6980,13 @@ react-dom@^16.3.2:
 react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
+
+react-pdf-js@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/react-pdf-js/-/react-pdf-js-3.0.7.tgz#b586c490940b976a235f2932c4bad0addef40dec"
+  dependencies:
+    pdfjs-dist "2.0.303"
+    prop-types "^15.6.0"
 
 react-pdf@^3.0.5:
   version "3.0.5"
