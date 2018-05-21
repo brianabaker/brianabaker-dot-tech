@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // root app component
-import App from './App';
+import DefaultSplash from './DefaultSplash';
 
 // css files
 import './index.css';
@@ -18,9 +18,8 @@ import Resume from './Resume'
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route exact path='/' component={App}/>
+      <Route exact path='/' component={DefaultSplash}/>
       <Route exact path="/resume" component={Resume}/>
-      <Route exact path='/travelphotos' component={TravelPhotos}/>
     </Switch>
   </BrowserRouter>
   , document.getElementById('root'));
