@@ -28,9 +28,10 @@ class App extends Component {
       </nav>
       <div className= "main-container">
         <div className="column" id="left-column">
-          <div id="banner-text">
             Hey, I'm Briana.
-          </div>
+        <div id="sub-heading">
+          I'm a Full Stack Software Engineer.
+        </div>
           <img src={this.state.img} alt="headshot" id="headshot"/>
         </div>
         <div className="column" id="right-column">
