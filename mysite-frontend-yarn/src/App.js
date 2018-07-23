@@ -8,8 +8,6 @@ import { Link } from 'react-router-dom'
 const ProfessionalPhoto = require('./images/professional-circle-crop802.png')
 const FlowerPhoto = require('./images/flower-crown-circle.png')
 
-// import AboutMe from './AboutMe'
-
 class App extends Component {
 
   state = {

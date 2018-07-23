@@ -5,13 +5,11 @@ import React, { Component } from 'react';
 // PACKAGES
 import { Link } from 'react-router-dom'
 
-import AboutMe from './AboutMe'
-
 class DefaultSplash extends Component {
 
   handleImageChange = () => {
     console.log('in the handle image change')
-    
+
   }
   render() {
     return (
