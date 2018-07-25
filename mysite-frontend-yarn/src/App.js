@@ -22,9 +22,9 @@ class App extends Component {
         <a href="https://medium.com/@brianaclairbaker/">Medium</a>
         <a href="https://twitter.com/brianacodes">Twitter</a>
         <a href="https://www.linkedin.com/in/brianaclairbaker/">LinkedIn</a>
-        <a href="https://learn.co/brianabaker/resume">Resume</a>
+        <a href="/resume">Resume</a>
       </nav>
-      <div className= "main-container">
+      <div className= "banner">
         <div className="column" id="left-column">
             Hey, I'm Briana.
         <div id="sub-heading">

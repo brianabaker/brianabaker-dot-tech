@@ -12,12 +12,14 @@ import './index.css';
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 // LINKS
+import Resume from './Resume'
 
 
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
       <Route exact path='/' component={App}/>
+      <Route exact path='/resume' component={Resume}/>
     </Switch>
   </BrowserRouter>
 , document.getElementById('root'));
