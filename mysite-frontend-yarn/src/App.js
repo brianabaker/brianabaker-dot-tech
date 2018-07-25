@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 // PACKAGES
 import { Link } from 'react-router-dom'
 
-const ProfessionalPhoto = require('./images/professional-circle-crop802.png')
 const FlowerPhoto = require('./images/flower-crown-circle.png')
 
 class App extends Component {
@@ -25,14 +24,14 @@ class App extends Component {
         <a href="/resume">Resume</a>
       </nav>
       <div className= "banner">
-        <div className="column" id="left-column">
+        <div className="column" id="main-left-column">
             Hey, I'm Briana.
         <div id="sub-heading">
           I'm a Full Stack Software Engineer.
         </div>
           <img src={this.state.img} alt="headshot" id="headshot"/>
         </div>
-        <div className="column" id="right-column">
+        <div className="column" id="main-right-column">
           <p>Returning to tech after 8 years and 24 countries abroad.</p>
           <p>Miami >> Everywhere >> NYC</p>
           <p>I want to collaborate to make good products and try to make this world a little bit better.</p>
