@@ -9,7 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-nav {
+#was-navigation {
   margin: 5px;
   padding: 20px;
   flex: 0 0 100%;
@@ -19,11 +19,11 @@ nav h3 {
   display: inline;
 }
 
-nav a {
-  float: right;
+a {
+  /* float: right; */
   text-decoration: none;
   color: darkgreen;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 a:hover {
@@ -119,6 +119,16 @@ main {
 
 .sub-container {
   margin-left: 20px;
+}
+
+.logos {
+  margin-right: 15px;
+  width: 24px;
+}
+
+#resume {
+  margin-bottom: 15px;
+  font-size: smaller;
 }
 
 @media all and (min-width: 960px) {
